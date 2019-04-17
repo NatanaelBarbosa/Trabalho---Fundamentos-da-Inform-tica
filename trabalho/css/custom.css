@@ -1,0 +1,126 @@
+::-webkit-scrollbar {width: 0px; height: 0px;}
+::-webkit-scrollbar-button {width: 0px; height: 0px;}
+
+html, body {height: 100%;}
+.bloco {min-height: 100%; padding-top: 95px;}
+
+/* LOGO */
+.logo-text {font-size: 1.5rem; font-weight: 300;}
+
+/* MENU */
+.navbar {background-color: transparent; transition: background 0.5s linear;}
+.navbar ul a:hover {background-color: transparent; color: #2dc7d0;}
+.nav-color {background-color: rgba(0,0,0,0.7); transition: background 0.5s linear;}
+
+/* HOME */
+.home {animation: mudarimg 20s infinite; background-image: url('../img/mf.jpg'); background-repeat: no-repeat; background-size: cover;}
+
+/* CONTEUDO */
+.conteudo {background-color: #fff;}
+.back-color {height: 94px; background-color: rgba(0,0,0,0.7);}
+.back {background-color: rgba(0,0,0,0.5);}
+
+/* HOME - ANIMATION */
+@keyframes mudarimg {
+  50% {background-image: url('../img/cl.jpg');}
+  100% {background-image: url('../img/mf.jpg');}
+}
+
+/* CUSTOM */
+nav {
+  color: #fff;
+  background-color: #ee6e73;
+  width: 100%;
+  height: 94px;
+  line-height: 94px;
+}
+
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+  height: auto;
+}
+
+.navbar-fixed {
+  position: absolute;
+  height: 94px;
+  z-index: 997;
+}
+
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: block;
+  font-size: 24px;
+  height: 94px;
+  line-height: 94px;
+}
+
+.side-nav {
+  background-color: rgba(0,0,0,0.7); 
+}
+
+.side-nav li>a {
+  color: #fff; font-weight: 100;
+}
+
+.tabs {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.tabs .tab a {
+  color: #fff;
+}
+
+.tabs .tab a:hover, 
+.tabs .tab a.active {
+  color: #2dc7d0;
+}
+
+.tabs .indicator {
+  background-color: #2dc7d0;
+}
+
+h2 {
+  font-size: 2rem; text-transform: uppercase;
+}
+
+h2::after {
+  content: ''; display: block; width: 100px; border-top: 1px solid #2dc7d0; margin: 15px auto;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.3rem; line-height: 1.8rem; text-align: justify;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #2dc7d0;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.page-footer {
+  background-color: rgba(0,0,0,0.7);
+}
+
+/* MEDIA */
+@media only screen and (max-width: 480px) {
+h5 {font-size: 1.2rem;}
+h2 {font-size: 1.5rem;}
+p {font-size: 1rem;}
+ul li {font-size: 0.9rem;}
+.tabs .tab a {font-size: 0.8rem;}
+}
+
+@media only screen and (min-width: 601px) {
+.container {width: 85%;}
+}
+
+@media only screen and (min-width: 993px) {
+.container {width: 90%;}
+}

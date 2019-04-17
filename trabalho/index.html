@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Fundamentos da Informática</title>
+    <link rel="icon" href="img/icone.png">
+
+    <!-- GOOGLE ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- MATERIALIZE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <header>
+      <!-- MENU MOBILE -->
+      <ul class="side-nav" id="menu-mobile">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#1">Super Computadores</a></li>
+        <li><a href="#2">Clusters</a></li>
+        <li><a href="#3">Mainframes</a></li>
+        <li><a href="#4">Data Centers</a></li>
+      </ul>
+
+      <div class="navbar-fixed">
+        <nav class="navbar z-depth-0">
+          <div class="nav-wrapper container"> 
+            <a href="#" class="logo-text"> Fundamentos da Informática </a>
+
+            <ul class="right light hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#1">Super Computadores</a></li>
+              <li><a href="#2">Clusters</a></li>
+              <li><a href="#3">Mainframes</a></li>
+              <li><a href="#4">Data Centers</a></li>
+            </ul>
+
+            <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home bloco scrollspy" id="home"></section>
+
+    <!-- SUPER COMPUTADORES -->
+    <section class="conteudo bloco scrollspy" id="1">
+      
+      <!-- TÍTULO -->
+      <div class="row">
+        <div class="col s12 back-color">
+          <h2 class="center white-text light"> Super Computadores </h2>
+        </div>
+      </div>
+
+      <!-- ABAS -->
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#test1">O que são?</a></li>
+            <li class="tab col s3"><a href="#test2">Tipos</a></li>
+            <li class="tab col s3"><a href="#test3">Curiosidades</a></li>
+            <li class="tab col s3"><a href="#test4">Evolução</a></li>
+          </ul>
+        </div>
+
+        <!-- CONTEÚDO -->
+
+        <!-- O QUE SÃO? -->
+        <div id="test1" class="col s12">
+          <p class="light"> 
+            Supercomputador é um computador com altíssima velocidade de processamento e grande capacidade de memória. Suas principais aplicações são nas áreas de pesquisa em que se requer grande quantidade de processamento, como pesquisas militares, científicas, químicas e médicas.<br><br>
+            Supercomputadores são usados para cálculos muito complexos e tarefas intensivas, como problemas envolvendo física quântica, mecânica, meteorologia, pesquisas de clima, modelagem molecular e simulações físicas, como simulação de aviões em túneis de vento, simulação da detonação de armas nucleares e investigação sobre a fusão nuclear. 
+          </p>
+          <h5 class="center"> Benefícios </h5>
+          <p class="light">
+            • O supercomputador acelera o desenvolvimento de toda pesquisa científica e tecnológica no País. Entre os melhores exemplos, estão a confiabilidade crescente das previsões meteorológicas, com antecipação cada dia maior;<br><br>
+            • Ele permite novas aplicações de realidade virtual, com enorme impacto na educação. Esses recursos nos permitem simular viagens virtuais ao interior do corpo humano, ao mundo microscópico das células ou até aos planetas e galáxias distantes;<br><br>         
+            • Revoluciona o projeto de aviões, como acontece hoje na Embraer, uma indústria que é orgulho brasileiro;<br><br>
+            • Finalmente, o supercomputador confere muito maior confiabilidade aos projetos de plataformas de perfuração de poços de petróleo submarinos, como acontece na Petrobrás.
+          </p>
+        </div>
+
+        <!-- TIPOS -->
+        <div id="test2" class="col s12">
+          <h5>Processadores vetoriais paralelos (PVP)</h5>
+          <p class="light">
+            Sistemas compostos de poucos processadores poderosos. Exemplos: Cray T-90 (máximo de 32 processadores) e Fujitsu VPi 700 (máximo de 256 processadores).
+          </p>
+          <h5>Multiprocessadores simétricos (SMP)</h5> 
+          <p class="light">
+            Os Symmetric Multiprocessors são sistemas constituídos de processadores comerciais conectados a uma memória compartilhada, podendo também ser classificados como multiprocessadores UMA. Exemplo: HP/Convex Exemplar X-Class (máximo de 32 nós de 16 processadores cada).
+          </p>
+          <h5>Máquinas maciçamente paralelas (MPP)</h5>
+          <p class="light">
+            Os MPPs (Massively Parallel Processors) são multicomputadores NORMA construídos com milhares de processadores comerciais conectados por uma rede de alta velocidade. O alto desempenho é obtido com o grande número de processadores. Exemplos: Intel Paragon (máximo de 4000 processadores) e Cray T3D (máximo de 2048 processadores).
+          </p>
+          <h5>Máquinas com memória compartilhada distribuída (DSM)</h5> 
+          <p class="light">
+            Nos sistemas DSM (Distributed Shared Memory), mesmo com a memória sendo distribuída entre os nós, todos os processadores podem acessar todas as memórias. Exemplo: SGI Origin (máximo de 512 processadores). 
+          </p>
+          <h5>Redes de estações de trabalho (NOW)</h5>
+          <p class="light">
+            As redes de estações de trabalho (NOW – Network of Workstations) são constituídas de várias estações de trabalho interligadas por alguma tecnologia tradicional de rede, como Ethernet e ATM. Exemplo: Estações de trabalho interligadas por tecnologia Ethernet. 
+          </p>
+        </div>
+
+        <!-- CURIOSIDADES -->
+        <div id="test3" class="col s12">
+          <p class="light">
+            • O ENIAC foi o primeiro computador digital eletrônico de grande escala, entrando em funcionamento em fevereiro de 1946 pelas mãos dos cientistas norte-americanos John Eckert e John Mauchly, da Electronic Control Company. O ENIAC começou a ser desenvolvido em 1943 durante a II Guerra Mundial para computar trajetórias táticas que exigissem conhecimento substancial em matemática, mas só se tornou operacional após o final da guerra.<br>
+            O "sistema operacional" da máquina era através de cartões perfurados;<br><br>
+            • Hoje os supercomputadores são fabricados por empresas como SUPERMICRO, NEC, SUN (esta foi comprada pela Oracle em 2010), IBM, HP, Apple Inc., e etc;<br><br>
+            • O Sunway TaihuLight  é um supercomputador da China que desde junho de 2016, classifica-se como o supercomputador mais rápido no mundo, com uma classificação de benchmark LINPACK de 93 petaflops. Este número é quase três vezes mais rápido que o anterior detentor do recorde, o Tianhe-2, que corria a 34 petaflops.<br>
+            Ele está localizado no Centro Nacional Chinês de Supercomputação, na cidade de Wuxi, província de Jiangsu, China.<br>
+            O sistema tem um sistema operacional próprio, o Raise OS, que é baseado no Linux.
+          </p>
+        </div>
+
+        <!-- EVOLUÇÃO -->
+        <div id="test4" class="col s12">
+          <h5 class="center"> Confira a evolução dos Supercomputadores com o passar do tempo. </h5><br>
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/ENIAC.jpg">
+                <div class="caption center-align">
+                  <h3>1946 - ENIAC</h3>
+                  <h5 class="white-text">Processamento: 500 Flops/s <br> Tamanho: 167,22 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/CDC.jpg">
+                <div class="caption left-align">
+                  <h3>1965 - CDC 6600</h3>
+                  <h5 class="white-text">Processamento: 3 KiloFlops/s <br> Tamanho: 46 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/IBM.jpg">
+                <div class="caption right-align">
+                  <h3>1968 - IBM SYSTEM/360 MODEL 91</h3>
+                  <h5 class="white-text">Processamento: 5 KiloFlops/s <br> Tamanho: 865 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/CRAY-1.jpg">
+                <div class="caption center-align">
+                  <h3>1976 - CRAY-1</h3>
+                  <h5 class="white-text">Processamento: 160 KiloFlops/s <br> Tamanho: 6 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/CRAY-X.jpg">
+                <div class="caption left-align">
+                  <h3>1982 - CRAY X-MP</h3>
+                  <h5 class="white-text">Processamento: 800 KiloFlops/s <br> Tamanho: 10 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/CRAY-2.jpg">
+                <div class="caption right-align">
+                  <h3>1985 - CRAY-2</h3>
+                  <h5 class="white-text">Processamento: 1.9 GigaFlops/s <br> Tamanho: 1.4 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/ASCI-R.jpg">
+                <div class="caption center-align">
+                  <h3>1997 - ASCI RED</h3>
+                  <h5 class="white-text">Processamento: 2 TeraFlops/s <br> Tamanho: 148 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/ASCI-W.jpg">
+                <div class="caption left-align">
+                  <h3>2001 - ASCI WHITE</h3>
+                  <h5 class="white-text">Processamento: 7 TeraFlops/s <br> Tamanho: 1114 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/EARTH.jpg">
+                <div class="caption right-align">
+                  <h3>2002 - NEC EARTH SIMULATOR</h3>
+                  <h5 class="white-text">Processamento: 36 TeraFlops/s <br> Tamanho: 3158 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/IBM-B.jpg">
+                <div class="caption center-align">
+                  <h3>2005 - IBM BLUE GENE/L</h3>
+                  <h5 class="white-text">Processamento: 470 TeraFlops/s <br> Tamanho: 232 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/IBM-S.jpg">
+                <div class="caption left-align">
+                  <h3>2012 - IBM SEQUOIA</h3>
+                  <h5 class="white-text">Processamento: 16 PetaFlops/s <br> Tamanho: 317 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/TIANHE-2.jpg">
+                <div class="caption right-align">
+                  <h3>2013 - NUDT TIANHE-2</h3>
+                  <h5 class="white-text">Processamento: 34 PetaFlops/s <br> Tamanho: 719 Metros Quadrados</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/SUNWAY.jpg">
+                <div class="caption center-align">
+                  <h3>2016 - SUNWAY TAIHULIGHT</h3>
+                  <h5 class="white-text">Processamento: 93 PetaFlops/s <br> Tamanho: 182 Metros Quadrados</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLUSTERS -->
+    <section class="conteudo bloco scrollspy" id="2">
+
+      <!-- TÍTULO -->
+      <div class="row">
+        <div class="col s12 back-color">
+          <h2 class="center white-text light title-content"> Clusters </h2>
+        </div>
+      </div>
+
+      <!-- ABAS -->
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#test5">O que são?</a></li>
+            <li class="tab col s3"><a href="#test6">Tipos</a></li>
+            <li class="tab col s3"><a href="#test7">Curiosidades</a></li>
+            <li class="tab col s3"><a href="#test8">Evolução</a></li>
+          </ul>
+        </div>
+
+        <!-- CONTEÚDO -->
+
+        <!-- O QUE SÃO? -->
+        <div id="test5" class="col s12">
+          <p class="light"> 
+            No contexto da computação, o termo cluster faz referência à arquitetura de sistema que une dois ou mais computadores como se fossem apenas um. Esse tipo de sistema começou a ser utilizado em 1960, na IBM, a gigante da informática norte-americana. E o principal intuito sempre foi aumentar a eficiência dos processadores e os clusters continuam passando por renovações desde a sua criação para melhorar o seu desempenho.<br><br>
+            Cada computador que faz parte do cluster recebe o nome de nó (ou node). Teoricamente, não há limite máximo de nós, mas independentemente da quantidade de máquinas que o compõe, o cluster deve ser "transparente", ou seja, ser visto pelo usuário ou por outro sistema que necessita deste processamento como um único computador.<br><br>
+            Os nós do cluster devem ser interconectados, preferencialmente, por uma tecnologia de rede conhecida, para fins de manutenção e controle de custos, como a Ethernet. É extremamente importante que o padrão adotado permita a inclusão ou a retirada de nós com o cluster em funcionamento, do contrário, o trabalho de remoção e substituição de um computador que apresenta problemas, por exemplo, faria a aplicação como um todo parar.<br><br>
+            A computação em cluster se mostra muitas vezes como uma solução viável porque os nós podem até mesmo ser compostos por computadores simples, como PCs de desempenho mediano. Juntos, eles configuram um sistema de processamento com capacidade suficiente para dar conta de determinadas aplicações que, se fossem atendidas por supercomputadores ou servidores sofisticados, exigiriam investimentos muito maiores.<br><br>
+            Não é necessário haver um conjunto de hardware exatamente igual em cada nó. Por outro lado, é importante que todas as máquinas utilizem o mesmo sistema operacional, de forma a garantir que o software que controla o cluster consiga gerenciar todos os computadores que o integram.
+          </p>
+        </div>
+
+        <!-- TIPOS -->
+        <div id="test6" class="col s12">
+          <h5>Failover ou High Availability</h5>
+          <p class="light">
+            O principal foco desse tipo de cluster consiste na manutenção da rede sempre ativa. O que acontece nesse tipo de cluster é que quando um nodo sofre algum problema e fica fora do ar, imediatamente tem-se outro com as mesmas características e habilidades para realizar a substituição.
+            Desse modo, o sistema geral não fica fora de ar em hipótese alguma.
+          </p>
+          <h5>Load Balancing</h5> 
+          <p class="light">
+            O load balancing é uma estrutura de cluster completamente unida. Todos os nodos são responsáveis pelas tarefas que estão sendo executadas. Eles unem os seus recursos disponíveis para realizar qualquer tarefa. Desde a mais simples até a mais complexa.
+            Caso algum computador falhe, ele é retirado do sistema de modo que as tarefas são redistribuídas entre os que permaneceram interligados entre si.
+          </p>
+          <h5>High Performance</h5>
+          <p class="light">
+            Esses são os clusters de alto desempenho. Aqui, o foco consiste em proporcionar os resultados esperados em um tempo satisfatório mesmo que a tarefa seja complicada.
+          </p>
+          <h5>Processamento paralelo</h5> 
+          <p class="light">
+            O modelo de cluster de processamento paralelo é importante para processar grandes tarefas. Através desse cluster é possível transformar uma tarefa complexa em várias outras mais simples que são distribuídas para os nodos. 
+          </p>
+        </div>
+
+        <!-- CURIOSIDADES -->
+        <div id="test7" class="col s12">
+          <p class="light">
+            • Não é preciso se prender a um tipo de cluster e utilizar somente ele. É possível realizar a combinação desses modelos para melhor atender às necessidades da empresa.<br>
+            Um caso de modelo combinado muito comum se dá quando a empresa precisa de um alto desempenho e de uma carga de processamento balanceada simultaneamente. Nesse caso não é possível priorizar apenas o alto rendimento enquanto a estabilidade do sistema é prejudicada e por essa razão a combinação de clusters é feita;<br><br>
+            • Beowulf é um projeto para aglomerados de computadores (ou Clusters) para computação paralela, usando computadores pessoais, não especializados e portanto mais baratos. O projeto foi criado por Donald Becker da NASA, e são utilizados em todo mundo, por exemplo no processamento de dados com finalidade científica e na renderizacão de filmes de animação 3D.
+          </p>
+        </div>
+
+        <!-- EVOLUÇÃO -->
+        <div id="test8" class="col s12">
+          <h5 class="center"> Confira a evolução dos Clusters com o passar do tempo. </h5><br>
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/BEOWULF.jpg">
+                <div class="caption center-align">
+                  <h3>1994 - BEOWULF</h3>
+                </div>
+              </li>
+              <li>
+                <img src="img/CLUSTER.jpg">
+                <div class="caption left-align">
+                  <h3>2010 - HPC</h3>
+                </div>
+              </li>                  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAINFRAMES -->
+    <section class="conteudo bloco scrollspy" id="3">
+      
+      <!-- TÍTULO -->
+      <div class="row">
+        <div class="col s12 back-color">
+          <h2 class="center white-text light title-content"> Mainframes </h2>
+        </div>
+      </div>
+
+      <!-- ABAS -->
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#test9">O que são?</a></li>
+            <li class="tab col s3"><a href="#test10">Tipos</a></li>
+            <li class="tab col s3"><a href="#test11">Curiosidades</a></li>
+            <li class="tab col s3"><a href="#test12">Evolução</a></li>
+          </ul>
+        </div>
+
+        <!-- CONTEÚDO -->
+
+        <!-- O QUE SÃO? -->
+        <div id="test9" class="col s12">
+          <p class="light"> 
+            Um mainframe é um computador de grande porte dedicado normalmente ao processamento de um volume enorme de informações. O termo mainframe era utilizado para se referir ao gabinete principal que alojava a unidade central de processamento nos primeiros computadores.<br><br>
+            Na década de 50 e 60 dominaram a área de informática em grandes corporações. Foram muito utilizados em guerra para cálculo balístico.<br><br>
+            Embora venham perdendo espaço para os servidores de arquitetura PC e servidores Unix, que em geral possuem custo menor, ainda são muito usados em ambientes comerciais e grandes empresas (bancos, empresas de aviação, universidades, etc.).<br><br>
+            São computadores que anteriormente ocupavam um grande espaço e necessitavam de um ambiente especial para seu funcionamento, mas atualmente possuem o mesmo tamanho dos demais servidores de grande porte, com menor consumo de energia elétrica. Os mainframes são capazes de realizar operações em grande velocidade e sobre um volume muito grande de dados.<br><br>
+            Os mainframes surgiram com a necessidade das empresas em executar tarefas, que levavam dias para serem concluídas. Era preciso então criar um supercomputador capaz de executar estas tarefas em menos tempo e mais precisamente.            
+          </p>
+        </div>
+
+        <!-- TIPOS -->
+        <div id="test10" class="col s12">
+          <p class="light">Existem dois tipos de mainframes</p>
+          <h5>Mainframes modernos</h5>
+          <p class="light">
+            As máquinas multiuso recém arquitetadas, não mais restritas apenas à computação centralizada. Elas são capazes de atender usuários distribuídos e servidores menores de uma rede. 
+          </p>
+          <h5>Mainframes antigos</h5> 
+          <p class="light">
+            Têm sido revisados para atender as exigências modernas, como a execução de programas na internet. Apesar das previsões que os mainframes seriam extintos antes da virada do milênio passado, essas máquinas estão provando ser o que Steve Lohr, da IBM, denominou como "a tecnologia clássica sobrevivente".
+          </p>
+          <h5>Tipos de dados do mainframe</h5>
+          <p class="light">
+            Os mainframes armazenam dados de duas maneiras. A maioria usa o conjunto de códigos EBCDIC, embora alguns possam usar a codificação ASCII. O conjunto de código se relaciona com a maneira como os mainframes codificam o alfabeto internamente. Por exemplo, aqueles que utilizam o conjunto de código ASCII armazenam a letra "A" como o valor hexadecimal 45 (65 em decimal). No conjunto de código EBCDIC, a mesma letra é representada pelo valor hex C1 (193 em decimal). Os dados não podem ser transferidos entre máquinas usando conjuntos de código diferentes sem que primeiro eles sejam convertidos.
+          </p>
+        </div>
+
+        <!-- CURIOSIDADES -->
+        <div id="test11" class="col s12">
+          <p class="light">
+            • Os mainframes têm a capacidade de executar diferentes sistemas operacionais, sendo seus recursos de hardware virtualizados através de um componente de hardware nativo (PR/SM) ou adicionalmente por software. Desta forma um único mainframe pode substituir dezenas ou mesmo centenas de servidores menores usando Máquinas virtuais;<br><br>
+            • A distinção entre supercomputadores e mainframes não é clara e direta, mas geralmente falando os supercomputadores são utilizados na solução de problemas em que o tempo de cálculo é um limite, enquanto os mainframes são utilizados em tarefas que exigem alta disponibilidade e envolvem alta taxa de transferência de dados (internos ou externos ao sistema);<br><br>
+            • O IBM Z13, um dos mainframe mais potente do mundo teve foco em dispositivos móveis.
+          </p>
+        </div>
+
+        <!-- EVOLUÇÃO -->
+        <div id="test12" class="col s12">
+          <h5 class="center"> Confira a evolução dos Mainframes com o passar do tempo. </h5><br>
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/IBM-360.jpg">
+                <div class="caption center-align">
+                  <h3>1964 - IBM System/360</h3>                      
+                </div>
+              </li>
+              <li>
+                <img src="img/IBM-370.jpg">
+                <div class="caption left-align">
+                  <h3>1970 - IBM System/370</h3>                      
+                </div>
+              </li>
+              <li>
+                <img src="img/B-6700.jpg">
+                <div class="caption right-align">
+                  <h3>1971 - BURROUGHS B-6700</h3>                      
+                </div>
+              </li>
+              <li>
+                <img src="img/B-1700.jpg">
+                <div class="caption center-align">
+                  <h3>1976 - BURROUGHS B-1700</h3>                      
+                </div>
+              </li>
+              <li>
+                <img src="img/Z10.jpg">
+                <div class="caption left-align">
+                  <h3>2008 - IBM Z10</h3>                      
+                </div>
+              </li>
+              <li>
+                <img src="img/IBM-Z14.jpg">
+                <div class="caption right-align">
+                  <h3>2017 - IBM Z14</h3>                      
+                </div>
+              </li>                  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATA CENTERS -->
+    <section class="conteudo bloco scrollspy" id="4">
+      
+      <!-- TÍTULO -->
+      <div class="row">
+        <div class="col s12 back-color">
+          <h2 class="center white-text light title-content"> Data Centers </h2>
+        </div>
+      </div>
+
+      <!-- ABAS -->
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#test13">O que são?</a></li>
+            <li class="tab col s3"><a href="#test14">Tipos</a></li>
+            <li class="tab col s3"><a href="#test15">Curiosidades</a></li>
+            <li class="tab col s3"><a href="#test16">Evolução</a></li>
+          </ul>
+        </div>
+
+        <!-- CONTEÚDO -->
+
+        <!-- O QUE SÃO? -->
+        <div id="test13" class="col s12">
+          <p class="light"> 
+            Data Center, ou Centro de Processamento de Dados, é um ambiente projetado para concentrar servidores, equipamentos de processamento e armazenamento de dados, e sistemas de ativos de rede, como switches, roteadores, e outros. Por isso, é considerado o sistema nervoso das empresas.<br><br>Com a finalidade de abrigar milhares de servidores e bancos de dados, e processar grandes quantidades de informação, os equipamentos geralmente são montados em racks ou armários metálicos. Possuem proteção contra incêndios, além de sistemas de resfriamento dos racks, para manter uma temperatura estável. Na maioria dos casos, ficam localizados em grandes galpões com acesso restrito de funcionários, por questões de segurança.<br><br>
+            Esses espaços são fundamentais para serviços e atividades de diversos setores da economia: energia, iluminação, telecomunicações, Internet, transportes, tráfego urbano, bancos, sistemas de segurança, saúde pública, entretenimento, e muitos outros. A vida na maioria das cidades depende do bom funcionamento e da disponibilidade de um ou vários Data Centers.<br><br>
+            Atualmente, eles têm capacidade de processamento quatro vezes maior do que os antigos DC’s, mesmo ocupando apenas 40% do espaço em comparação com os modelos mais antigos.<br><br>
+            Os Data Centers devem conter alguns componentes básicos para um bom funcionamento. São eles: Infraestrutura de Rede, Segurança Física e Refrigeração e Energia
+          </p>
+        </div>
+
+        <!-- TIPOS -->
+        <div id="test14" class="col s12">
+          <p class="light">
+            Normalmente, os Data Centers são divididos em duas categorias principais:
+          </p>
+          <h5>Data Center Privado (PDC)</h5> 
+          <p class="light">
+            Os DCs dessa categoria pertencem e são operados por corporações, instituições ou agências governamentais, com a finalidade de armazenarem dados de processamentos internos e também para serem utilizados em aplicações voltadas para a Internet, como por exemplo, manter um site governamental.
+          </p>
+          <h5>Internet Data Center (IDC)</h5>
+          <p class="light">
+            É gerenciado por um provedor de serviços de telecomunicação. O objetivo principal desse Data Center é fornecer serviços de hospedagem de sites e de equipamentos de empresas, bem como serviços de conexão de Internet, armazenamento de conteúdo, entre outros. Um serviço bastante utilizado no IDC é o Co-location, que consiste na locação de um servidor exclusivo para o usuário, instalado e operado dentro da estrutura do provedor desse serviço.<br><br>
+            Esse formato proporciona alta escalabilidade, ou seja, em caso de necessidade de ampliação dos servidores ou equipamentos, essa ampliação pode ser feita instantaneamente pelo provedor, o que traz uma otimização de custos de operação e manutenção, monitoramento constante e um backup de dados, o que garante o bom funcionamento do serviço.
+          </p>
+        </div>
+
+        <!-- CURIOSIDADES -->
+        <div id="test15" class="col s12">
+          <p class="light">
+            • Com o advento da computação moderna, entre o fim do século XIX e começo do século XX, começou-se a precisar de mais espaço físico para os computadores. Aproveitando-se da disponibilidade da energia elétrica, universidades, empresas e outros tipos de organizações instalavam seus primeiros computadores. Os primeiros computadores eram responsáveis por ler e gravar dados em cartões perfurados;<br><br>
+            • No início de 2016, a Microsoft realizou testes do Project Natick, que visava instalar data centers no oceano. A ideia, que promete ser mais econômica e sustentável, finalmente se tornou uma realidade. A estrutura foi instalada pela empresa em uma área próxima às Órcades, ilhas localizadas a 16 quilômetros do norte da Escócia.<br>
+            Para a criação do data center, a Microsoft desenvolveu uma espécie de cilindro do tamanho de um contêiner, capaz de comportar 12 racks que mantêm 864 servidores em funcionamento. Ele se mantém ativo por meio de energias solar, eólica, das ondas e das marés.<br>
+            Quando está operando em sua capacidade máxima, o data center consome um quarto de megawatt. Além disso, a empresa consegue gastar menos com a refrigeração do espaço, já que o oceano por si tem temperaturas baixas.
+          </p>
+        </div>
+
+        <!-- EVOLUÇÃO -->
+        <div id="test16" class="col s12">
+          <h5 class="center"> Confira a evolução dos Data Centers com o passar do tempo. </h5><br>
+          <div class="slider">
+            <ul class="slides">
+              <li class="back">
+                <img src="#">
+                <div class="caption center-align">
+                  <h3>1900 - CARTÕES PERFURADOS</h3>
+                </div>
+              </li>
+              <li>
+                <img src="img/APPLE-DC.jpg">
+                <div class="caption left-align">
+                  <h3>2016 - APPLE DATA CENTER</h3>
+                </div>
+              </li>
+              <li>
+                <img src="img/MICROSOFT-M.jpg">
+                <div class="caption left-align">
+                  <h3>2018 - PROJECT NATICK MICROSOFT</h3>
+                </div>
+              </li>                   
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Trabalho</h5>
+            <ul>
+              <li class="light">Sobre: Super Computadores - Clusters - Mainframes - Data Centers</li><br>
+              <li class="light">Professores: Wellington e Rodolfo</li><br>
+              <li class="light">Data: 10/05/2019</li><br>
+              <li class="light">Nomes: Natanael - Gabriel - Bibiano - Nycolas
+            </ul>
+          </div>
+          <div class="col l6 s12">
+            <h5 class="white-text">Fontes</h5>
+            <ul>
+              <li class="light">
+                https://pt.wikipedia.org/wiki/Supercomputador<br>
+                http://deinfo.uepg.br/~alunoso/2017/SUPERCOMPUTADORES/
+              </li>
+              <li class="light">
+                https://blog.deskmanager.com.br/cluster/<br>
+                https://www.infowester.com/cluster.php
+              </li>
+              <li class="light">
+                https://pt.wikipedia.org/wiki/Mainframe<br>
+                https://www.ehow.com.br/tipos-computadores-mainframe-info_37894/
+              </li>
+              <li class="light">
+                https://blogbrasil.comstor.com/bid/334188/o-que-um-data-center
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Copyright
+        </div>
+      </div>
+    </footer>
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- MATERIALIZE JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+    // INICIALIZAÇÃO
+      $(document).ready(function(){
+        // MENU MOBILE
+        $(".button-collapse").sideNav();
+        // LINK INTERNO
+        $(".scrollspy").scrollSpy({
+          scrollOffset: 0
+        });
+        //SLIDER LINHA DO TEMPO
+        $('.slider').slider();
+      });
+
+      // ADICIONANDO NAVCOLOR
+      $(window).on("scroll", function(){
+        if($(window).scrollTop() > 100) {
+          $(".navbar").addClass("nav-color");
+        } else {
+          $(".navbar").removeClass("nav-color");
+        }
+      });
+
+    </script>
+
+  </body>
+
+</html>
